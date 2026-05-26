@@ -1,0 +1,22 @@
+skills:
+  - name: Before You Build Skill
+    slug: before-you-build
+    category: idea-validation
+    repo: https://github.com/bin1874/before-you-build-skill
+    official_page: https://beforeyoubuild.fyi/en/skill
+    clawhub: https://clawhub.ai/bin1874/before-you-build
+    install: openclaw skills install before-you-build
+    supported_tools:
+      - Codex
+      - Claude Code
+      - Cursor
+      - OpenClaw
+      - OpenCode
+      - Prompt-compatible agents
+    use_when: Before building a product, SaaS, AI app, side project, or feature.
+    best_for: Indie builders who need a short product-risk reality check before asking an agent to write code.
+    why_included: Challenges demand, distribution, pricing, retention, trust, and workflow assumptions before implementation.
+    risk_level: Low
+    risk_note: Text-only by default. No API key required for normal use.
+    review_status: Include
+    last_reviewed: 2026-05-26
