@@ -1,0 +1,54 @@
+candidates:
+  - name: Code Review
+    slug: code-review
+    source: https://clawhub.ai/wpank/code-review
+    category: coding-qa
+    use_case: Structured code review across security, performance, maintainability, correctness, and testing.
+    initial_risk: Low
+    status: Hold
+    notes: Strong workflow fit. Needs review for whether instructions remain text-only or request tool execution.
+
+  - name: Test Generator
+    slug: test-generator
+    source: https://clawhub.ai/ckchzh/test-generator
+    category: coding-qa
+    use_case: Generate unit, integration, and end-to-end test cases plus edge cases and fixtures.
+    initial_risk: Medium
+    status: Hold
+    notes: Good indie-builder workflow fit. Needs review for generated-test quality and whether it asks to run project code.
+
+  - name: PRD to DDD Design
+    slug: prd-to-ddd-design
+    source: https://clawhub.ai/qitongfire/prd-to-ddd-design
+    category: product-building
+    use_case: Convert requirements or PRDs into domain models, entities, ER diagrams, and implementation-friendly design notes.
+    initial_risk: Medium
+    status: Hold
+    notes: Useful after validation for complex business domains. Needs review because DDD may be overkill for early MVPs.
+
+  - name: Product
+    slug: product
+    source: https://clawhub.ai/ivangdavila/product
+    category: product-building
+    use_case: Product strategy, visualization, launch planning, and marketplace optimization.
+    initial_risk: Medium
+    status: Hold
+    notes: Broad scope. Needs review to ensure it is not too generic for this stack.
+
+  - name: Landing Page
+    slug: landing-page
+    source: https://clawhub.ai/ivangdavila/landing-page
+    category: launch-growth
+    use_case: Create or review landing pages with structure, persuasive copy, and conversion optimization.
+    initial_risk: Low
+    status: Hold
+    notes: Strong launch workflow fit. Needs review for whether it gives concrete builder-ready output.
+
+  - name: Customer Feedback
+    slug: customer-feedback
+    source: https://clawhub.ai/jk-0001/customer-feedback
+    category: operations
+    use_case: Collect, analyze, and act on customer feedback, interviews, feature requests, NPS, and CSAT.
+    initial_risk: Medium
+    status: Hold
+    notes: Strong operations fit. Needs review for privacy guidance around customer data.

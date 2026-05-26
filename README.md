@@ -2,7 +2,7 @@
 
 Curated, hand-reviewed AI agent skills for indie builders.
 
-No bulk lists. No prompt dumps. Just high-signal skills for builders who validate, ship, launch, and operate real products.
+No bulk lists. No prompt dumps. This project reviews skills for practical signal before they reach the public stack.
 
 ## What This Is
 
@@ -49,29 +49,33 @@ The starter stack should cover:
 5. Launch and distribution copy.
 6. Feedback, changelog, and analytics review.
 
-## First Included Skill
-
-### Before You Build Skill
-
-- Repo: <https://github.com/bin1874/before-you-build-skill>
-- ClawHub: <https://clawhub.ai/bin1874/before-you-build>
-- Install: `openclaw skills install before-you-build`
-- Category: Idea & Validation
-- Use when: before building a product, SaaS, AI app, side project, or feature.
-- Why included: helps solo builders avoid building the wrong thing faster.
-- Risk note: Low risk. Text-only. No API key required for normal use.
-
 ## Inclusion Standard
 
 Default answer is no.
 
 A skill must be useful in a real indie-builder workflow, not just interesting as a demo. See [CONTRIBUTING.md](CONTRIBUTING.md) and [templates/review-checklist.md](templates/review-checklist.md).
 
+## Review Workflow
+
+New suggestions start in [data/candidates.yml](data/candidates.yml), not in the public category pages.
+
+Decisions are recorded in [REVIEW_LOG.md](REVIEW_LOG.md):
+
+- `Include`: reviewed and ready for the public stack.
+- `Hold`: promising, but not clear enough yet.
+- `Reject`: not a fit for this repository.
+
+See [ROADMAP.md](ROADMAP.md) for the current implementation plan.
+
 ## Data
 
 The structured index lives in [data/skills.yml](data/skills.yml).
 
-Category pages are written for humans. The YAML file is for future automation, website generation, or integrity checks.
+Candidates live in [data/candidates.yml](data/candidates.yml). A candidate is not endorsed until it moves into `data/skills.yml` and the matching category page.
+
+Research sources and maintainer-tool candidates live in [data/sources.yml](data/sources.yml). Source directories are not public-stack entries.
+
+Category pages are written for humans. The YAML file is a simple index with the same fields described in [templates/skill-entry.md](templates/skill-entry.md).
 
 ## License
 

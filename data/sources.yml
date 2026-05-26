@@ -1,0 +1,12 @@
+sources:
+  - name: Awesome Frontend Agent Skills
+    url: https://github.com/finfin/awesome-frontend-skills
+    type: source-directory
+    use_for: Find individual frontend skills for later review.
+    notes: Not a skill. Do not add directly to the public stack.
+
+  - name: ClawHub Skill Vetting
+    url: https://github.com/hugomrtz/skill-vetting-clawhub
+    type: maintainer-tool-candidate
+    use_for: Possible internal review helper for checking ClawHub skills.
+    notes: Not an indie-builder workflow skill. Review separately before using as a maintainer tool.
